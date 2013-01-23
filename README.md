@@ -1,5 +1,5 @@
-wrong-space-visualize.vim
-=========================
+space-visualize.vim
+===================
 タブと全角スペースと行末スペースを可視化するVimプラギンです。
 
-  NeoBundle 'tekiomo/wrong-space-visualize.vim'
+    NeoBundle 'tekiomo/space-visualize.vim'
