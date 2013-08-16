@@ -8,13 +8,13 @@
 if has('syntax')
   function! CodeHighlight()
     syntax match Tab "\t" display containedin=ALL
-    hi Tab term=underline cterm=underline ctermfg=NONE ctermbg=NONE guibg=NONE
+    hi Tab term=underline cterm=underline ctermfg=DARKGRAY ctermbg=NONE guibg=NONE
 
     syntax match JpSpace "　" display containedin=ALL
-    hi JpSpace term=underline cterm=underline ctermbg=NONE guibg=NONE
+    hi JpSpace term=underline cterm=underline ctermfg=DARKGRAY ctermbg=NONE guibg=NONE
 
     syntax match WhitespaceEOL "\s\+$" display containedin=ALL
-    hi WhitespaceEOL term=underline cterm=underline ctermfg=NONE ctermbg=NONE guibg=NONE
+    hi WhitespaceEOL term=underline cterm=underline ctermfg=DARKGRAY ctermbg=NONE guibg=NONE
   endf
 
   augroup invisible
